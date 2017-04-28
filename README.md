@@ -1,6 +1,6 @@
 # SCKit
-------------------
-A collection of self-written iOS components. (All of the project listed in the following list were written by myself.)
+
+A collection of self-written iOS components. 
 
 ## UI Components
 * [SCInstructionSpotlightView](https://github.com/ShannonChenCHN/SCInstructionSpotlightView) - An easy-to-use tool for tutorial or coach in your app.

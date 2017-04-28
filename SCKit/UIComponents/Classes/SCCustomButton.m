@@ -7,7 +7,7 @@
 //
 
 #import "SCCustomButton.h"
-#import "UIView+Layout.h"
+#import "UIView+SCLayout.h"
 
 @implementation SCCustomButton
 

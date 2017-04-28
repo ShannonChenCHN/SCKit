@@ -7,52 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58274AF81EB335F400E86967 /* SCImageWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 58274AF51EB335F400E86967 /* SCImageWriter.m */; };
+		58274AFB1EB337DA00E86967 /* SCBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58274AFA1EB337DA00E86967 /* SCBadgeView.m */; };
+		58274AFE1EB338D300E86967 /* NSString+SCExtenstion.m in Sources */ = {isa = PBXBuildFile; fileRef = 58274AFD1EB338D300E86967 /* NSString+SCExtenstion.m */; };
+		58274B011EB33C3A00E86967 /* NSTimer+SCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 58274B001EB33C3A00E86967 /* NSTimer+SCExtension.m */; };
+		58274B041EB33DA600E86967 /* UIView+SCLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 58274B031EB33DA600E86967 /* UIView+SCLayout.m */; };
+		58274B071EB3401A00E86967 /* UIBarButtonItem+SCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 58274B061EB3401A00E86967 /* UIBarButtonItem+SCExtension.m */; };
+		58274B0A1EB3426000E86967 /* SCOutsideTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58274B091EB3426000E86967 /* SCOutsideTouchView.m */; };
+		58274B0E1EB34A8100E86967 /* SCCustomNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 58274B0D1EB34A8100E86967 /* SCCustomNavigationBar.m */; };
+		58274B111EB34B3E00E86967 /* SCHourglassLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58274B101EB34B3E00E86967 /* SCHourglassLoadingView.m */; };
+		58274B141EB34FB600E86967 /* ComponentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58274B131EB34FB600E86967 /* ComponentsViewController.m */; };
+		58274B1A1EB355F100E86967 /* CustomButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58274B181EB355F100E86967 /* CustomButtonViewController.m */; };
+		58274B1B1EB355F100E86967 /* CustomButtonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58274B191EB355F100E86967 /* CustomButtonViewController.xib */; };
 		586490E51EA8D923006D47B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 586490E41EA8D923006D47B6 /* main.m */; };
 		586490E81EA8D923006D47B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 586490E71EA8D923006D47B6 /* AppDelegate.m */; };
-		586490EB1EA8D923006D47B6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 586490EA1EA8D923006D47B6 /* ViewController.m */; };
+		586490EB1EA8D923006D47B6 /* CustomUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 586490EA1EA8D923006D47B6 /* CustomUIViewController.m */; };
 		586490EE1EA8D923006D47B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 586490EC1EA8D923006D47B6 /* Main.storyboard */; };
 		586490F01EA8D923006D47B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 586490EF1EA8D923006D47B6 /* Assets.xcassets */; };
 		586490F31EA8D923006D47B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 586490F11EA8D923006D47B6 /* LaunchScreen.storyboard */; };
-		586491131EA8DAEF006D47B6 /* UIBarButtonItem+YHouse.m in Sources */ = {isa = PBXBuildFile; fileRef = 586490FE1EA8DAEF006D47B6 /* UIBarButtonItem+YHouse.m */; };
 		586491141EA8DAEF006D47B6 /* UIView+SCAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 586491001EA8DAEF006D47B6 /* UIView+SCAnimation.m */; };
-		586491151EA8DAEF006D47B6 /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 586491021EA8DAEF006D47B6 /* UIView+Layout.m */; };
 		586491161EA8DAEF006D47B6 /* SCCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 586491051EA8DAEF006D47B6 /* SCCustomButton.m */; };
-		586491171EA8DAEF006D47B6 /* YHCustomNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 586491071EA8DAEF006D47B6 /* YHCustomNavigationBar.m */; };
-		586491181EA8DAEF006D47B6 /* YHHourglassLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 586491091EA8DAEF006D47B6 /* YHHourglassLoadingView.m */; };
-		5864911B1EA8DAEF006D47B6 /* SCImageWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 586491121EA8DAEF006D47B6 /* SCImageWriter.m */; };
-		5864911E1EA8DC1D006D47B6 /* NSString+YIDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5864911D1EA8DC1D006D47B6 /* NSString+YIDExtension.m */; };
-		586491211EA8DCF5006D47B6 /* NSTimer+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 586491201EA8DCF5006D47B6 /* NSTimer+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		58274AF41EB335F400E86967 /* SCImageWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCImageWriter.h; sourceTree = "<group>"; };
+		58274AF51EB335F400E86967 /* SCImageWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCImageWriter.m; sourceTree = "<group>"; };
+		58274AF91EB337DA00E86967 /* SCBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCBadgeView.h; sourceTree = "<group>"; };
+		58274AFA1EB337DA00E86967 /* SCBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCBadgeView.m; sourceTree = "<group>"; };
+		58274AFC1EB338D300E86967 /* NSString+SCExtenstion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SCExtenstion.h"; sourceTree = "<group>"; };
+		58274AFD1EB338D300E86967 /* NSString+SCExtenstion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SCExtenstion.m"; sourceTree = "<group>"; };
+		58274AFF1EB33C3A00E86967 /* NSTimer+SCExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+SCExtension.h"; sourceTree = "<group>"; };
+		58274B001EB33C3A00E86967 /* NSTimer+SCExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+SCExtension.m"; sourceTree = "<group>"; };
+		58274B021EB33DA600E86967 /* UIView+SCLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SCLayout.h"; sourceTree = "<group>"; };
+		58274B031EB33DA600E86967 /* UIView+SCLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SCLayout.m"; sourceTree = "<group>"; };
+		58274B051EB3401A00E86967 /* UIBarButtonItem+SCExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+SCExtension.h"; sourceTree = "<group>"; };
+		58274B061EB3401A00E86967 /* UIBarButtonItem+SCExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+SCExtension.m"; sourceTree = "<group>"; };
+		58274B081EB3426000E86967 /* SCOutsideTouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCOutsideTouchView.h; sourceTree = "<group>"; };
+		58274B091EB3426000E86967 /* SCOutsideTouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCOutsideTouchView.m; sourceTree = "<group>"; };
+		58274B0C1EB34A8100E86967 /* SCCustomNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCCustomNavigationBar.h; sourceTree = "<group>"; };
+		58274B0D1EB34A8100E86967 /* SCCustomNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCCustomNavigationBar.m; sourceTree = "<group>"; };
+		58274B0F1EB34B3E00E86967 /* SCHourglassLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHourglassLoadingView.h; sourceTree = "<group>"; };
+		58274B101EB34B3E00E86967 /* SCHourglassLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHourglassLoadingView.m; sourceTree = "<group>"; };
+		58274B121EB34FB600E86967 /* ComponentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComponentsViewController.h; sourceTree = "<group>"; };
+		58274B131EB34FB600E86967 /* ComponentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComponentsViewController.m; sourceTree = "<group>"; };
+		58274B161EB3544800E86967 /* SCMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCMacro.h; sourceTree = "<group>"; };
+		58274B171EB355F100E86967 /* CustomButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomButtonViewController.h; sourceTree = "<group>"; };
+		58274B181EB355F100E86967 /* CustomButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomButtonViewController.m; sourceTree = "<group>"; };
+		58274B191EB355F100E86967 /* CustomButtonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomButtonViewController.xib; sourceTree = "<group>"; };
 		586490E01EA8D923006D47B6 /* SCKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SCKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		586490E41EA8D923006D47B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		586490E61EA8D923006D47B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		586490E71EA8D923006D47B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		586490E91EA8D923006D47B6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		586490EA1EA8D923006D47B6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		586490E91EA8D923006D47B6 /* CustomUIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomUIViewController.h; sourceTree = "<group>"; };
+		586490EA1EA8D923006D47B6 /* CustomUIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomUIViewController.m; sourceTree = "<group>"; };
 		586490ED1EA8D923006D47B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		586490EF1EA8D923006D47B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		586490F21EA8D923006D47B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		586490F41EA8D923006D47B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		586490FD1EA8DAEF006D47B6 /* UIBarButtonItem+YHouse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+YHouse.h"; sourceTree = "<group>"; };
-		586490FE1EA8DAEF006D47B6 /* UIBarButtonItem+YHouse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+YHouse.m"; sourceTree = "<group>"; };
 		586490FF1EA8DAEF006D47B6 /* UIView+SCAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SCAnimation.h"; sourceTree = "<group>"; };
 		586491001EA8DAEF006D47B6 /* UIView+SCAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SCAnimation.m"; sourceTree = "<group>"; };
-		586491011EA8DAEF006D47B6 /* UIView+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layout.h"; sourceTree = "<group>"; };
-		586491021EA8DAEF006D47B6 /* UIView+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layout.m"; sourceTree = "<group>"; };
 		586491041EA8DAEF006D47B6 /* SCCustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCCustomButton.h; sourceTree = "<group>"; };
 		586491051EA8DAEF006D47B6 /* SCCustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCCustomButton.m; sourceTree = "<group>"; };
-		586491061EA8DAEF006D47B6 /* YHCustomNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHCustomNavigationBar.h; sourceTree = "<group>"; };
-		586491071EA8DAEF006D47B6 /* YHCustomNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHCustomNavigationBar.m; sourceTree = "<group>"; };
-		586491081EA8DAEF006D47B6 /* YHHourglassLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHHourglassLoadingView.h; sourceTree = "<group>"; };
-		586491091EA8DAEF006D47B6 /* YHHourglassLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHHourglassLoadingView.m; sourceTree = "<group>"; };
-		586491111EA8DAEF006D47B6 /* SCImageWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCImageWriter.h; sourceTree = "<group>"; };
-		586491121EA8DAEF006D47B6 /* SCImageWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCImageWriter.m; sourceTree = "<group>"; };
-		5864911C1EA8DC1D006D47B6 /* NSString+YIDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+YIDExtension.h"; sourceTree = "<group>"; };
-		5864911D1EA8DC1D006D47B6 /* NSString+YIDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+YIDExtension.m"; sourceTree = "<group>"; };
-		5864911F1EA8DCF5006D47B6 /* NSTimer+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Extension.h"; sourceTree = "<group>"; };
-		586491201EA8DCF5006D47B6 /* NSTimer+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +81,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		58274AED1EB335F400E86967 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				58274AEE1EB335F400E86967 /* Categories */,
+				58274AF31EB335F400E86967 /* Classes */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		58274AEE1EB335F400E86967 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				58274AFC1EB338D300E86967 /* NSString+SCExtenstion.h */,
+				58274AFD1EB338D300E86967 /* NSString+SCExtenstion.m */,
+				58274AFF1EB33C3A00E86967 /* NSTimer+SCExtension.h */,
+				58274B001EB33C3A00E86967 /* NSTimer+SCExtension.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		58274AF31EB335F400E86967 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				58274AF41EB335F400E86967 /* SCImageWriter.h */,
+				58274AF51EB335F400E86967 /* SCImageWriter.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		586490D71EA8D923006D47B6 = {
 			isa = PBXGroup;
 			children = (
@@ -88,8 +132,13 @@
 				586490FA1EA8DAEF006D47B6 /* SCKit */,
 				586490E61EA8D923006D47B6 /* AppDelegate.h */,
 				586490E71EA8D923006D47B6 /* AppDelegate.m */,
-				586490E91EA8D923006D47B6 /* ViewController.h */,
-				586490EA1EA8D923006D47B6 /* ViewController.m */,
+				586490E91EA8D923006D47B6 /* CustomUIViewController.h */,
+				586490EA1EA8D923006D47B6 /* CustomUIViewController.m */,
+				58274B171EB355F100E86967 /* CustomButtonViewController.h */,
+				58274B181EB355F100E86967 /* CustomButtonViewController.m */,
+				58274B191EB355F100E86967 /* CustomButtonViewController.xib */,
+				58274B121EB34FB600E86967 /* ComponentsViewController.h */,
+				58274B131EB34FB600E86967 /* ComponentsViewController.m */,
 				586490EC1EA8D923006D47B6 /* Main.storyboard */,
 				586490EF1EA8D923006D47B6 /* Assets.xcassets */,
 				586490F11EA8D923006D47B6 /* LaunchScreen.storyboard */,
@@ -110,8 +159,9 @@
 		586490FA1EA8DAEF006D47B6 /* SCKit */ = {
 			isa = PBXGroup;
 			children = (
+				58274AED1EB335F400E86967 /* Utils */,
 				586490FB1EA8DAEF006D47B6 /* UIComponents */,
-				5864910A1EA8DAEF006D47B6 /* Utility */,
+				58274B161EB3544800E86967 /* SCMacro.h */,
 			);
 			name = SCKit;
 			path = ../../SCKit;
@@ -129,12 +179,12 @@
 		586490FC1EA8DAEF006D47B6 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				586490FD1EA8DAEF006D47B6 /* UIBarButtonItem+YHouse.h */,
-				586490FE1EA8DAEF006D47B6 /* UIBarButtonItem+YHouse.m */,
 				586490FF1EA8DAEF006D47B6 /* UIView+SCAnimation.h */,
 				586491001EA8DAEF006D47B6 /* UIView+SCAnimation.m */,
-				586491011EA8DAEF006D47B6 /* UIView+Layout.h */,
-				586491021EA8DAEF006D47B6 /* UIView+Layout.m */,
+				58274B021EB33DA600E86967 /* UIView+SCLayout.h */,
+				58274B031EB33DA600E86967 /* UIView+SCLayout.m */,
+				58274B051EB3401A00E86967 /* UIBarButtonItem+SCExtension.h */,
+				58274B061EB3401A00E86967 /* UIBarButtonItem+SCExtension.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -144,39 +194,14 @@
 			children = (
 				586491041EA8DAEF006D47B6 /* SCCustomButton.h */,
 				586491051EA8DAEF006D47B6 /* SCCustomButton.m */,
-				586491061EA8DAEF006D47B6 /* YHCustomNavigationBar.h */,
-				586491071EA8DAEF006D47B6 /* YHCustomNavigationBar.m */,
-				586491081EA8DAEF006D47B6 /* YHHourglassLoadingView.h */,
-				586491091EA8DAEF006D47B6 /* YHHourglassLoadingView.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		5864910A1EA8DAEF006D47B6 /* Utility */ = {
-			isa = PBXGroup;
-			children = (
-				5864910B1EA8DAEF006D47B6 /* Categories */,
-				586491101EA8DAEF006D47B6 /* Classes */,
-			);
-			path = Utility;
-			sourceTree = "<group>";
-		};
-		5864910B1EA8DAEF006D47B6 /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				5864911C1EA8DC1D006D47B6 /* NSString+YIDExtension.h */,
-				5864911D1EA8DC1D006D47B6 /* NSString+YIDExtension.m */,
-				5864911F1EA8DCF5006D47B6 /* NSTimer+Extension.h */,
-				586491201EA8DCF5006D47B6 /* NSTimer+Extension.m */,
-			);
-			path = Categories;
-			sourceTree = "<group>";
-		};
-		586491101EA8DAEF006D47B6 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				586491111EA8DAEF006D47B6 /* SCImageWriter.h */,
-				586491121EA8DAEF006D47B6 /* SCImageWriter.m */,
+				58274B0C1EB34A8100E86967 /* SCCustomNavigationBar.h */,
+				58274B0D1EB34A8100E86967 /* SCCustomNavigationBar.m */,
+				58274B0F1EB34B3E00E86967 /* SCHourglassLoadingView.h */,
+				58274B101EB34B3E00E86967 /* SCHourglassLoadingView.m */,
+				58274AF91EB337DA00E86967 /* SCBadgeView.h */,
+				58274AFA1EB337DA00E86967 /* SCBadgeView.m */,
+				58274B081EB3426000E86967 /* SCOutsideTouchView.h */,
+				58274B091EB3426000E86967 /* SCOutsideTouchView.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -240,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				586490F31EA8D923006D47B6 /* LaunchScreen.storyboard in Resources */,
+				58274B1B1EB355F100E86967 /* CustomButtonViewController.xib in Resources */,
 				586490F01EA8D923006D47B6 /* Assets.xcassets in Resources */,
 				586490EE1EA8D923006D47B6 /* Main.storyboard in Resources */,
 			);
@@ -252,17 +278,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				586491211EA8DCF5006D47B6 /* NSTimer+Extension.m in Sources */,
-				586491181EA8DAEF006D47B6 /* YHHourglassLoadingView.m in Sources */,
-				586490EB1EA8D923006D47B6 /* ViewController.m in Sources */,
+				586490EB1EA8D923006D47B6 /* CustomUIViewController.m in Sources */,
 				586491161EA8DAEF006D47B6 /* SCCustomButton.m in Sources */,
-				586491131EA8DAEF006D47B6 /* UIBarButtonItem+YHouse.m in Sources */,
-				5864911E1EA8DC1D006D47B6 /* NSString+YIDExtension.m in Sources */,
-				586491171EA8DAEF006D47B6 /* YHCustomNavigationBar.m in Sources */,
-				586491151EA8DAEF006D47B6 /* UIView+Layout.m in Sources */,
-				5864911B1EA8DAEF006D47B6 /* SCImageWriter.m in Sources */,
+				58274B041EB33DA600E86967 /* UIView+SCLayout.m in Sources */,
+				58274AF81EB335F400E86967 /* SCImageWriter.m in Sources */,
+				58274B141EB34FB600E86967 /* ComponentsViewController.m in Sources */,
+				58274B0E1EB34A8100E86967 /* SCCustomNavigationBar.m in Sources */,
+				58274B011EB33C3A00E86967 /* NSTimer+SCExtension.m in Sources */,
+				58274B071EB3401A00E86967 /* UIBarButtonItem+SCExtension.m in Sources */,
+				58274AFE1EB338D300E86967 /* NSString+SCExtenstion.m in Sources */,
+				58274AFB1EB337DA00E86967 /* SCBadgeView.m in Sources */,
+				58274B0A1EB3426000E86967 /* SCOutsideTouchView.m in Sources */,
 				586490E81EA8D923006D47B6 /* AppDelegate.m in Sources */,
 				586490E51EA8D923006D47B6 /* main.m in Sources */,
+				58274B1A1EB355F100E86967 /* CustomButtonViewController.m in Sources */,
+				58274B111EB34B3E00E86967 /* SCHourglassLoadingView.m in Sources */,
 				586491141EA8DAEF006D47B6 /* UIView+SCAnimation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +448,7 @@
 				586490F91EA8D923006D47B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

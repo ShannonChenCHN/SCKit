@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomButtonViewController">
+            <connections>
+                <outlet property="highLocationButton" destination="ssZ-UU-pD4" id="pBr-Uv-fp5"/>
+                <outlet property="likeButton" destination="NXf-xr-sdZ" id="kOs-Qd-oMN"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="viewMoreButton" destination="Lfm-ve-PjX" id="RiO-ee-fPa"/>
+                <outlet property="wideLocationButton" destination="TpT-1E-MBX" id="iZS-bM-agK"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ssZ-UU-pD4" customClass="SCCustomButton">
+                    <rect key="frame" x="224" y="98" width="75" height="75"/>
+                    <color key="backgroundColor" red="0.62188973849999996" green="1" blue="0.31827771859999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="75" id="U3V-Nn-sa7"/>
+                        <constraint firstAttribute="height" constant="75" id="dtw-pa-AA4"/>
+                    </constraints>
+                    <state key="normal" title="Beijing" image="location_icon">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NXf-xr-sdZ" customClass="SCCustomButton">
+                    <rect key="frame" x="41" y="238" width="75" height="75"/>
+                    <color key="backgroundColor" red="1" green="0.73946098989999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="75" id="8hq-Oj-Kj0"/>
+                        <constraint firstAttribute="width" constant="75" id="GGj-In-3ft"/>
+                    </constraints>
+                    <state key="normal" title="like 1k" image="like_icon">
+                        <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lfm-ve-PjX" customClass="SCCustomButton">
+                    <rect key="frame" x="285" y="348" width="45" height="17"/>
+                    <color key="backgroundColor" red="0.49404886739999998" green="0.7226824664" blue="0.3398175336" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="17" id="bt8-by-vaV"/>
+                        <constraint firstAttribute="width" constant="45" id="gfk-Gr-LUa"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="more" image="right_arrow">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TpT-1E-MBX" customClass="SCCustomButton">
+                    <rect key="frame" x="26" y="417" width="313" height="30"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="g87-33-1WW"/>
+                    </constraints>
+                    <state key="normal" title="Shanghai" image="location_icon">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="TpT-1E-MBX" secondAttribute="trailing" constant="36" id="0uH-yI-4nf"/>
+                <constraint firstAttribute="trailing" secondItem="ssZ-UU-pD4" secondAttribute="trailing" constant="70" id="2EE-io-mGj"/>
+                <constraint firstItem="TpT-1E-MBX" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="26" id="DOT-zF-UuL"/>
+                <constraint firstAttribute="bottom" secondItem="TpT-1E-MBX" secondAttribute="bottom" constant="220" id="HQW-FA-leg"/>
+                <constraint firstItem="NXf-xr-sdZ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="41" id="Qpz-Jp-fwW"/>
+                <constraint firstAttribute="trailing" secondItem="Lfm-ve-PjX" secondAttribute="trailing" constant="45" id="STJ-Ma-bQa"/>
+                <constraint firstItem="NXf-xr-sdZ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="238" id="Yi6-b3-4gx"/>
+                <constraint firstItem="TpT-1E-MBX" firstAttribute="top" secondItem="Lfm-ve-PjX" secondAttribute="bottom" constant="52" id="oUk-nJ-q4S"/>
+                <constraint firstItem="ssZ-UU-pD4" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="100" id="yFs-Rf-6cy"/>
+            </constraints>
+            <point key="canvasLocation" x="-136" y="12"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="like_icon" width="26" height="24"/>
+        <image name="location_icon" width="8" height="11"/>
+        <image name="right_arrow" width="6" height="10"/>
+    </resources>
+</document>

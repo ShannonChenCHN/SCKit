@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:SCKitDemo.xcodeproj">
+      location = "self:/Users/shannonchen/Desktop/GitHub Resources/___PersonalGrowth/SCKit/SCKitDemo/SCKitDemo.xcodeproj">
    </FileRef>
 </Workspace>

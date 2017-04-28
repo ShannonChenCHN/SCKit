@@ -7,7 +7,7 @@
 //
 
 #import "UIView+SCAnimation.h"
-#import "UIView+Layout.h"
+#import "UIView+SCLayout.h"
 
 @implementation UIView (SCAnimation)
 
