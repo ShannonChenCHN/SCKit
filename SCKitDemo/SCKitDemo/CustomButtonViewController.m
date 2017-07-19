@@ -11,6 +11,7 @@
 
 @interface CustomButtonViewController ()
 
+@property (strong, nonatomic) IBOutlet SCCustomButton *avatarButton;
 @property (strong, nonatomic) IBOutlet SCCustomButton *viewMoreButton;
 @property (strong, nonatomic) IBOutlet SCCustomButton *wideLocationButton;
 @property (strong, nonatomic) IBOutlet SCCustomButton *likeButton;
@@ -22,6 +23,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.edgesForExtendedLayout = UIRectEdgeNone;
+    
+    
+    // 头像
+    self.avatarButton.imagePosition = SCCustomButtonImagePositionTop;
+    self.avatarButton.interTitleImageSpacing = 5;
+    self.avatarButton.contentVerticalAlignment = UIControlContentVerticalAlignmentTop;
+    self.avatarButton.imageCornerRadius = 25;
     
     
     // 查看更多

@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -11,6 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomButtonViewController">
             <connections>
+                <outlet property="avatarButton" destination="Q05-gF-cm1" id="SbB-ME-CTX"/>
                 <outlet property="highLocationButton" destination="ssZ-UU-pD4" id="pBr-Uv-fp5"/>
                 <outlet property="likeButton" destination="NXf-xr-sdZ" id="kOs-Qd-oMN"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
@@ -67,6 +68,16 @@
                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </state>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q05-gF-cm1" customClass="SCCustomButton">
+                    <rect key="frame" x="15" y="50" width="80" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="Xpc-wc-s0m"/>
+                        <constraint firstAttribute="height" constant="100" id="vhr-PK-50v"/>
+                    </constraints>
+                    <state key="normal" title="Shannon" image="Shanghai">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
@@ -77,13 +88,16 @@
                 <constraint firstItem="NXf-xr-sdZ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="41" id="Qpz-Jp-fwW"/>
                 <constraint firstAttribute="trailing" secondItem="Lfm-ve-PjX" secondAttribute="trailing" constant="45" id="STJ-Ma-bQa"/>
                 <constraint firstItem="NXf-xr-sdZ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="238" id="Yi6-b3-4gx"/>
+                <constraint firstItem="Q05-gF-cm1" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="50" id="grf-qr-Ztr"/>
                 <constraint firstItem="TpT-1E-MBX" firstAttribute="top" secondItem="Lfm-ve-PjX" secondAttribute="bottom" constant="52" id="oUk-nJ-q4S"/>
+                <constraint firstItem="Q05-gF-cm1" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="q5l-fw-AOb"/>
                 <constraint firstItem="ssZ-UU-pD4" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="100" id="yFs-Rf-6cy"/>
             </constraints>
-            <point key="canvasLocation" x="-136" y="12"/>
+            <point key="canvasLocation" x="-136.5" y="11.5"/>
         </view>
     </objects>
     <resources>
+        <image name="Shanghai" width="50" height="50"/>
         <image name="like_icon" width="26" height="24"/>
         <image name="location_icon" width="8" height="11"/>
         <image name="right_arrow" width="6" height="10"/>
