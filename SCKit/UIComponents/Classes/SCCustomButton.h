@@ -19,6 +19,16 @@ typedef NS_ENUM(NSInteger, SCCustomButtonImagePosition) {
 
 /**
  自定义按钮，可控制图片文字间距
+ 
+ 使用方法：
+ @code
+     SCCustomButton *button = [[SCCustomButton alloc] initWithFrame:CGRectMake(50, 50, 50, 30)];
+     button.imagePosition = SCCustomButtonImagePositionLeft;  // 图文布局方式
+     button.interTitleImageSpacing = 5;                       // 图文间距
+     button.imageCornerRadius = 15;                           // 图片圆角半径
+     button.contentHorizontalAlignment = UIControlContentHorizontalAlignmentCenter;  // 内容对齐方式
+     [self addSubview:button];
+ @endcode
  */
 @interface SCCustomButton : UIButton
 

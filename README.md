@@ -11,6 +11,7 @@ A collection of self-written iOS components.
 * [MTRefresh](https://github.com/ShannonChenCHN/MTRefresh) - A simple-version of MJRefresh, just for self-study. Thanks for CoderMJ's sharing.
 * [SCStickyCellHeaderCollectionView](https://github.com/ShannonChenCHN/SCStickyCellHeaderCollectionView) - A custom UICollectionView wrapper with sticky "cell" header effect, and it has UICollectionView-like API.
 * [SCScrollBarController](https://github.com/ShannonChenCHN/SCScrollBarController) - Swipe between ViewControllers like in the Beibei or Miya app with an interactive scroll bar on the top of view controllers.
+* [SCCustomButton](https://github.com/ShannonChenCHN/SCKit/blob/master/SCKit/UIComponents/Classes/SCCustomButton.h) - 一个简单易用的自定义 UIButton，支持多种图文布局方式（上图下文、左图右文、上文下图、左文右图），支持设置图文间距，支持设置图片圆角大小（比如头像）。
 
 ## Debug Tools
 * [DebugHelper](https://github.com/ShannonChenCHN/DebugHelper) - A shake-to-use debug tool combined with FLEX, iConsole and GDPerformanceView.
