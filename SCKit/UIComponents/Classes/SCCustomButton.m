@@ -147,7 +147,7 @@
         self.titleLabel.x = self.width * 0.5 - (self.titleLabel.width + self.interTitleImageSpacing + self.imageView.width) * 0.5;
         self.titleLabel.y = (self.height - self.titleLabel.height) * 0.5;
         
-        self.imageView.x = self.interTitleImageSpacing + self.titleLabel.width;
+        self.imageView.x = self.titleLabel.x + self.titleLabel.width + self.interTitleImageSpacing;
         self.imageView.y = (self.height - self.imageView.height) * 0.5;
     }
 }
