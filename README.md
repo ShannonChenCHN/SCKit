@@ -3,6 +3,7 @@
 A collection of self-written iOS components. 
 
 ## UI Components
+* [SCProgressView](https://github.com/ShannonChenCHN/SCProgressView) - 一个带气泡的进度条
 * [SCSnapshotManager](https://github.com/ShannonChenCHN/SCSnapshotManager) - 一个生成长图/快照的框架。
 * [SCWebBrowserView](https://github.com/ShannonChenCHN/SCWebBrowserView) - 一个兼容 iOS 8 以下版本的 web 容器，基于 `UIWebView` 和 `WKWebView` 的封装。
 * [SCInstructionSpotlightView](https://github.com/ShannonChenCHN/SCInstructionSpotlightView) - An easy-to-use tool for tutorial or coach in your app.
