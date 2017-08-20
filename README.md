@@ -1,6 +1,6 @@
 # SCKit
 
-A collection of self-written iOS components. 
+A collection of "homemade" iOS components. 
 
 ## UI Components
 * [SCProgressView](https://github.com/ShannonChenCHN/SCProgressView) - 一个带气泡的进度条
