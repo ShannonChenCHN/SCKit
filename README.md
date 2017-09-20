@@ -3,6 +3,7 @@
 A collection of "homemade" iOS components. 
 
 ## UI Components
+* [SCEqualInteritemSpacingCollectionView](https://github.com/ShannonChenCHN/SCEqualInteritemSpacingCollectionView)：展示等间距标签的 layout，可以设置整体居左、居右，或者居中
 * [SCProgressView](https://github.com/ShannonChenCHN/SCProgressView) - 一个带气泡的进度条
 * [SCSnapshotManager](https://github.com/ShannonChenCHN/SCSnapshotManager) - 一个生成长图/快照的框架。
 * [SCWebBrowserView](https://github.com/ShannonChenCHN/SCWebBrowserView) - 一个兼容 iOS 8 以下版本的 web 容器，基于 `UIWebView` 和 `WKWebView` 的封装。
